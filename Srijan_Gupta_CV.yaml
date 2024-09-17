@@ -1,0 +1,160 @@
+cv:
+  name: Srijan Gupta
+  location: New Delhi, India
+  email: srijang@live.com
+  phone: tel:+91-99538-93090
+  # website: https://yourwebsite.com/
+  social_networks:
+    - network: LinkedIn
+      username: srijan-gupta-920
+    - network: GitHub
+      username: Srijan1972
+  sections:
+    # welcome_to_RenderCV!:
+    #   - '[RenderCV](https://github.com/sinaatalay/rendercv) is
+    #     a LaTeX-based CV/resume framework. It allows you to create
+    #     a high-quality CV or resume as a PDF file from a YAML
+    #     file, with **full Markdown syntax support** and **complete
+    #     control over the LaTeX code**.'
+    #   - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
+    # quick_guide:
+    #   - bullet: Each section title is arbitrary and each section
+    #       contains a list of entries.
+    #   - bullet: 'There are 7 unique entry types: *BulletEntry*,
+    #       *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
+    #       *PublicationEntry*, and *OneLineEntry*.'
+    #   - bullet: Select a section title, pick an entry type, and
+    #       start writing your section!
+    #   - bullet: '[Here](https://docs.rendercv.com/user_guide/),
+    #       you can find a comprehensive user guide for RenderCV.'
+    education:
+      - institution: Indian Institute of Technology Delhi
+        area: Computer Science & Engineering
+        degree: BTech + MTech
+        start_date: 2020-11
+        end_date: 2025-07
+        highlights:
+          - 'CGPA: 8.5/10.0'
+          - '**Coursework:** Digital Logic & System Design, Computer Architecture, Compiler Design, Compiler Optimization, Architecture of High Performance Computers, Synthesis of Digital Systems'
+    experience:
+      - company: NVIDIA
+        position: ASIC Intern
+        location: Bengaluru, India
+        start_date: 2024-05
+        end_date: 2024-07
+        highlights:
+          - Designed a method of collecting performance statistics at regular **instruction intervals** using the Linux tool **perf**
+          - Developed a **binary search** based algorithm to find when CPU performance becomes **stable**
+          - Using the **SPEC2017 Integer Rate** benchmarks, tested and verified the validity of both the above approaches
+      - company: Carleton University
+        position: Research Intern
+        location: Ottawa, Canada
+        start_date: 2023-05
+        end_date: 2023-07
+        highlights:
+          - Reduced memory requirements of the **cadmium\_v2** simulator by over 60% to allow functioning on embedded systems
+          - Designed **DEVS** models to test on **cadmium\_v2**, then deploy on the **MSP432P401R** board
+          - Wrote a manual to allow setting up of a **cadmium\_v2** development environment for the **MSP432P401R** board
+    # publications:
+    #   - title: 3D Finite Element Analysis of No-Insulation Coils
+    #     authors:
+    #       - Frodo Baggins
+    #       - '***John Doe***'
+    #       - Samwise Gamgee
+    #     doi: 10.1109/TASC.2023.3340648
+    #     date: 2004-01
+    teaching:
+    - company: Digital Logic & System Design
+      position: Teaching Assistant
+      location: New Delhi, India
+      start_date: 2024-07
+      end_date: 2024-11
+      highlights:
+        - Invigilated and checked examinations involving **100+** students
+        - Mentored students in use of the **Vivado Design Suite** for VHDL programming
+        - Verified their implementations via demonstrations on a **basys3** board
+        - Regulary resolved doubts and concerns posted by students on the platform **Piazza**
+    projects:
+      - name: Accelerating Heterogenous Computing Platforms
+        start_date: 2024-07
+        end_date: 2025-07 
+        highlights:
+          - Working to leverage both  the **PS (Processing System)** and **PL (Programmable Logic)** on the Zynq Ultrascale+ MPSoC for maximum performance
+          - Used **PetaLinux** to boot the board and communicate with other systems
+          - 'Tools Used: Vitis HLS, PetaLinux, ZCU102 Zynq Ultrascale+'
+          - '**Aiming to publish a paper soon**'
+      - name: SSA Implementation
+        start_date: 2024-03
+        end_date: 2024-05
+        highlights:
+          - Made the **single static assignment** conversion algorithm of the **CompilerAI** framework more efficient
+          - Modified the **control flow graph** construct of the program to support new constructs for SSA conversion
+          - 'Tools Used: C++, LLVM, C, x86, Counter (CompilerAI)'
+      - name: Custom Instructions in gem5
+        start_date: 2023-10
+        end_date: 2024-11
+        highlights:
+          - Studied the **gem5** simulator and understood how it implements various assembly instructions
+          - Implemented factorial and $^{n}C_{r}$ as **RISC-V** instructions in **gem5**, and added their signatures to the **gcc-riscv** compiler
+          - 'Tools Used: gem5, C++, python, gcc-riscv'
+      - name: Accelerated Matrix Multiplication
+        date: '[Code](https://github.com/Srijan1972/COL380/tree/master/A4)'
+        highlights:
+          - Implemented a **multi-threaded** sparse matrix multiplication algorithm using **CUDA** for **NVIDIA GPUs**
+          - Observed that even matrices with **$O(10^8)$ non-zero elements** were multiplied within **5 minutes**
+          - After extensive testing, showed that the algorithm is $O(n^2)$, a significant improvement over the standard $O(n^3)$
+      - name: Self-Driving Car
+        date: '[Code](https://github.com/NischayDiwan/COL333/tree/main/A3)'
+        highlights:
+          - Used a **Markov model-based particle filter** to determine the relative positions of obstacles based on noisy data
+          - Used **Dijkstra's Algorithm** to find the shortest safe path to the destination based on the **particle filter's** output
+          - The AI model was successful in preventing collisions in over **90%** of cases while maintaining the car's movement speed
+      - name: 3-Layer MLP on basys3
+        date: '[Code](https://github.com/Srijan1972/COL215/tree/main/Assignment\%202)'
+        highlights:
+          - Made a **3-layer Multi Layer Perceptron** to classify the **MNIST** dataset
+          - Implemented various components like MAC, comparator, ROM, RAM etc. in **VHDL**
+          - 'Tools Used: VHDL, Vivado Design Suite, basys3 board'
+    technical_skills:
+      - label: Programming Languages
+        details: Standard ML, Python, C++, C, Java, Javascript, MATLAB, VHDL, ARM, Prolog, Bash
+      - label: Technologies & Softwares
+        details: Linux, git, gem5, Pytorch, LLVM, Vivado, Vitis
+design:
+  theme: classic
+  font: Source Sans 3
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+  show_timespan_in: []
