@@ -29,13 +29,13 @@ cv:
     #       you can find a comprehensive user guide for RenderCV.'
     education:
       - institution: Indian Institute of Technology Delhi
-        area: Computer Science & Engineering
+        area: Computer Science and Engineering
         degree: BTech + MTech
         start_date: 2020-11
         end_date: 2025-07
         highlights:
           - 'CGPA: 8.5/10.0'
-          - '**Coursework:** Digital Logic & System Design, Computer Architecture, Compiler Design, Compiler Optimization, Architecture of High Performance Computers, Synthesis of Digital Systems'
+          - '**Relevant Coursework:** Digital Logic and System Design, Computer Architecture, Compiler Design, Compiler Optimization, Architecture of High-Performance Computers, Synthesis of Digital Systems'
     experience:
       - company: NVIDIA
         position: ASIC Intern
@@ -43,18 +43,18 @@ cv:
         start_date: 2024-05
         end_date: 2024-07
         highlights:
-          - Conceived a method of collecting performance statistics at regular **instruction intervals** using the Linux tool **perf**
+          - Conceived a method of collecting performance statistics at regular **instruction intervals** using Linux **perf**
           - Developed a **binary search** based algorithm to find when CPU performance becomes **stable**
-          - Using the **SPEC2017 Integer Rate** benchmarks, tested and verified the validity of both the above approaches
+          - Using the **SPEC2017 Integer Rate** benchmarks, tested and verified the validity of the above approaches
       - company: Carleton University
-        position: Research Intern
+        position: Mitacs Globalink Intern
         location: Ottawa, Canada
         start_date: 2023-05
         end_date: 2023-07
         highlights:
           - Reduced memory requirements of the **cadmium\_v2** simulator by over 60% to allow functioning on embedded systems
           - Implemented **DEVS** models to test on **cadmium\_v2**, then deploy on the **MSP432P401R** board
-          - Wrote a manual to allow setting up of a **cadmium\_v2** development environment for the **MSP432P401R** board
+          - Wrote a manual for setting up a **cadmium\_v2** development environment for the **MSP432P401R** board
     # publications:
     #   - title: 3D Finite Element Analysis of No-Insulation Coils
     #     authors:
@@ -64,7 +64,7 @@ cv:
     #     doi: 10.1109/TASC.2023.3340648
     #     date: 2004-01
     teaching:
-    - company: Digital Logic & System Design
+    - company: Digital Logic and System Design
       position: Teaching Assistant
       location: New Delhi, India
       start_date: 2024-07
@@ -73,26 +73,26 @@ cv:
         - Invigilated and checked examinations involving **100+** students
         - Mentored students in use of the **Vivado Design Suite** for VHDL programming
         - Verified their implementations via demonstrations on a **basys3** board
-        - Regulary resolved doubts and concerns posted by students on the platform **Piazza**
+        - Regularly resolved doubts and concerns posted by students on the platform **Piazza**
     projects:
       - name: Accelerating Heterogenous Computing Platforms
         start_date: 2024-07
         end_date: 2025-07 
         highlights:
-          - Working to leverage both  the **PS (Processing System)** and **PL (Programmable Logic)** on the Zynq Ultrascale+ MPSoC for maximum performance
-          - Leveraged **PetaLinux** to boot the board and communicate with other systems
-          - 'Tools Used: Vitis HLS, PetaLinux, ZCU102 Zynq Ultrascale+ MPSoC'
+          - Working to leverage both the **PS (Processing System)** and **PL (Programmable Logic)** on the Zynq Ultrascale+ MPSoC for maximum performance
+          - Used **PetaLinux** to boot the board and communicate with other systems
+          - 'Tools Used: Vitis HLS, PetaLinux, ZCU102 Zynq Ultrascale+ MPSoC, OpenCL'
           - '**Aiming to publish a paper soon**'
       - name: SSA Implementation
         start_date: 2024-03
         end_date: 2024-05
         highlights:
-          - Made the **single static assignment** conversion algorithm of the **CompilerAI** framework more efficient
+          - Made the **single static assignment** (SSA) conversion algorithm of the **CompilerAI** framework more efficient
           - Modified the **control flow graph** construct of the program to support new constructs for SSA conversion
           - 'Tools Used: C++, LLVM, C, x86, Counter (CompilerAI)'
       - name: Custom Instructions in gem5
         start_date: 2023-10
-        end_date: 2024-11
+        end_date: 2023-11
         highlights:
           - Studied the **gem5** simulator and understood how it implements various assembly instructions
           - Implemented factorial and $^{n}C_{r}$ as **RISC-V** instructions in **gem5**, and added their signatures to the **gcc-riscv** compiler
@@ -106,23 +106,23 @@ cv:
       - name: Self-Driving Car
         date: '[Code](https://github.com/NischayDiwan/COL333/tree/main/A3)'
         highlights:
-          - Innovated a **Markov model-based particle filter** to determine the relative positions of obstacles based on noisy data
+          - Created a **Markov model-based particle filter** to determine the relative positions of obstacles based on noisy data
           - Found the shortest safe path to the destination via **Dijkstra's Algorithm** based on the **particle filter's** output
           - The AI model was successful in preventing collisions in over **90%** of cases while maintaining the car's movement speed
       - name: 3-Layer MLP on basys3
         date: '[Code](https://github.com/Srijan1972/COL215/tree/main/Assignment\%202)'
         highlights:
-          - Made a **3-layer Multi Layer Perceptron** to classify the **MNIST** dataset
-          - Designed various components like MAC, comparator, ROM, RAM etc. in **VHDL**
-          - 'Tools Used: VHDL, Vivado Design Suite, basys3 board'
+          - Made a **3-layer Multi-Layer Perceptron** to classify the **MNIST** dataset
+          - Designed various components like MAC, comparator, ROM, and RAM in **VHDL**
+          - 'Tools Used: VHDL, Vivado Design Suite, basys3'
     technical_skills:
       - label: Programming Languages
-        details: Standard ML, Python, C++, C, Java, Javascript, MATLAB, VHDL, ARM, Prolog, Bash
-      - label: Technologies & Softwares
-        details: Linux, git, gem5, Pytorch, LLVM, Vivado, Vitis
+        details: Standard ML, Python, C++, C, Java, Javascript, MATLAB, VHDL, ARM, Prolog, Bash, OpenCL
+      - label: Technologies and Softwares
+        details: Linux, git, gem5, Tensorflow, LLVM, Vivado, Vitis, RenderCV
     extra_curricular_activities:
       - label: Hockey
-        details: Served as both captain and vice captain of the institute hockey team, led the team to several podium finishes and organized multiple intra and inter-university tournaments.
+        details: Served as captain and vice-captain of the institute hockey team, led the team to several podium finishes, and organized multiple intra and inter-university tournaments.
 design:
   theme: classic
   font: Source Sans 3
@@ -133,7 +133,7 @@ design:
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
-  last_updated_date_style: Last updated in TODAY
+  last_updated_date_style: Last updated TODAY
   header_font_size: 30 pt
   text_alignment: justified
   seperator_between_connections: ''
